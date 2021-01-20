@@ -1,0 +1,742 @@
+/* Style guide styling. for headings in the style guide. Not styles used in applicaiton. */
+html
+{
+    font-size: 0.65em;
+}
+
+body
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.30em;
+    background-image:url('../../../../../../../images/dot/dlts/dlos/dlrecords/layoutbg.jpg');
+    background-repeat: repeat;
+}
+
+.non-bold
+{
+    font-weight: normal;
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+.app-content
+{
+    background-color:#fff;
+    padding-bottom: 20px;
+}
+
+h1.style-guide
+{
+    font-size: 24px;
+}
+s
+h2.style-guide
+{
+    font-size: 18px;
+    border-bottom: solid 1px #ececec;
+    margin-bottom: 5px;
+}
+
+hr
+{
+    border-color: #969696;
+    margin: 2px 0px 5px 0px;
+}
+
+/* Font Styling */
+h1, h2, h3, h4, h5
+{
+    margin: 10px 0px;
+}
+
+h1
+{
+    font-size: 1.50em;
+    color: #000;
+    font-weight: bold;
+}
+
+h2
+{
+    font-size: 1.20em;
+    color: #021B3E;
+    font-weight: bold;
+    border-bottom: solid 1px #ececec;
+    margin-top: 10px;
+    background-color: #edead9;
+}
+
+h3
+{
+    font-size: 24px;
+    color: #0a4e7d;
+    font-weight: bold;
+    border-bottom: solid 1px #ececec;
+    margin-top: 20px;
+}
+
+h4
+{
+    font-size: 24px;
+    color: #0a4e7d;
+    font-weight: bold;
+}
+
+h5
+{
+    font-size: 18px;
+    color: #0a4e7d;
+    font-weight: bold;
+}
+
+p
+{
+    margin: 5px 0px 2px 0px;
+    color: #444444;
+}
+
+.app-title
+{
+    font-size: 2.60em;
+    color: #fff;
+    font-weight: normal;
+    display: inline-block;
+}
+.label
+{
+    color: #000;
+}
+
+.label.label-default
+{
+    color: #fff;
+}
+
+ul
+{
+    font-weight: normal;
+}
+
+a.popupsmall
+{
+    padding-top: 4px;
+    padding-right: 12px;
+    margin-right: 0px;
+    position: relative;
+    white-space: nowrap;
+    background-image: url('../../../../../../../images/dot/dlts/dlos/dlrecords/popup.gif');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+aside.sidebar h2
+{
+    margin: 0px -8px 0px -8px;
+    background-color: #ad152c;
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 5px 10px 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #ad152c; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#d61834, #a5152a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#d61834, #a5152a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#d61834, #a5152a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#d61834, #a5152a); /* Standard syntax (must be last) */
+}
+
+aside.sidebar h3
+{
+    color: #d61834;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #ececec;
+    font-size: 18px;
+}
+
+a
+{
+    text-decoration: underline;
+    color: #1f528c;
+}
+
+a:hover
+{
+    color: #0a3858;
+}
+
+/*Navigation Structure*/
+header
+{
+    background-color: #042657;
+    border-bottom: 15px #bd8210 solid;
+}
+
+.top-menu
+{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #b8162e;
+    padding: 2px 0px 2px 0px;
+}
+
+.top-menu a
+{
+    color: #fff;
+}
+
+header .menu
+{
+    background-image:url('../../../../../../../images/dot/dlts/dlos/dlrecords/menu-background.png');
+}
+
+.navbar
+{
+    margin-bottom: 0px;    
+}
+
+.navbar-default
+{
+    background-color: transparent;
+    border-style: none;
+}
+
+.navbar-brand
+{
+    height: auto;
+    padding: 2px 10px;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-nav > li > a
+{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover,.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, ul.nav > li.dropdown:hover > a
+{
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 5px solid #d61734;
+    padding-top: 24px;
+    padding-bottom: 19px;
+}
+
+ul.nav > li.dropdown-toggle:hover > a 
+{
+    
+}
+
+.navbar-right .dropdown-menu
+{
+    left: 0;
+    right: auto;
+}
+
+.open .dropdown-menu
+{
+    display: block;
+}
+
+.dropdown-menu
+{
+    background-color: #ececec;
+}
+
+.dropdown-menu li a:hover
+{
+    background-color: #d7d7d7;
+}
+
+.dropdown-menu li a
+{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+
+
+
+/* Form Styling*/
+
+fieldset
+{
+    border: 1px solid #cccccc;
+    padding: 0 10px 5px 10px;
+    margin: 10px;
+}
+
+legend
+{
+    color: #000;
+    font-weight: normal;
+    font-size: 1.00em;
+    border-style: none;
+    width: auto;
+    margin-bottom: 5px;
+}
+
+fieldset p
+{
+    font-weight: normal;
+    margin: 0px 0px 5px 0px;
+}
+
+label
+{
+    margin-bottom: 2px;
+}
+
+input[type=text].md-txt
+{
+    width: 50%;
+}
+
+.form-group
+{
+    margin-bottom: 5px;
+}
+
+
+
+.form-inline
+{
+    margin: 10px 0px;
+}
+
+.form-control
+{
+    height: 26px;
+    padding: 4px 5px;
+    font-size: 12px;
+    border-radius: 0px;
+}
+
+.checkbox-inline, .radio-inline
+{
+    margin-bottom: 2px;
+}
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio]
+{
+    margin-left: -15px;
+}
+
+.checkbox-inline+.checkbox-inline, .radio-inline+.radio-inline
+{
+    margin-left: 5px;
+}
+
+.form-inline.label-top label, .form-inline.label-top .select-label
+{
+    display: table;
+    font-size: .95em;
+}
+
+.has-error
+{
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    padding: 10px;
+}
+
+.has-error .select-label, .has-error select
+{
+    color: #a94442;
+}
+
+.form-inline.label-top label.radio-inline
+{
+    display: inline-block;
+}
+
+.form-inline.label-top > .form-group.radio > label.radio-inline
+{
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.form-inline.label-top.stacked > .form-group
+{
+    vertical-align: top;
+}
+
+.form-inline.label-top.stacked > .form-group.radio > label
+{
+    display: block;
+}
+
+.form-inline.label-top.stacked > .form-group.radio > label + label
+{
+    margin-left: 0px;
+}
+
+.form-inline.label-top label.checkbox-inline, .form-inline.label-top label.radio-inline
+{
+    margin-top: 20px;
+}
+
+.form-inline > .form-group+.form-group, .form-inline.label-top > .form-group+.form-group
+{
+    margin-left: 15px;
+}
+
+.form-inline.label-top .xs-txt-bx
+{
+    display: inline-block;
+    width:50px;
+}
+
+select
+{
+    font-weight: normal;
+}
+
+
+/* Button Styling  */
+
+.btn
+{
+    padding:  0px 5px;
+    border-radius: 0px;
+    font-size: 1.00em;
+    font-weight: bold;
+}
+
+.btn-group, .btn-group.spaced
+{
+    margin: 10px 0px;;
+}
+
+.btn-group.spaced>.btn:first-child:not(:last-child):not(.dropdown-toggle), .btn-group.spaced>.btn:first-child:not(:last-child):not(.dropdown-toggle),.btn-group.spaced>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle), .btn-group.spaced>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child)
+{
+    border-radius: 0px;
+}
+
+.btn-group.spaced>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle)
+{
+    margin-left: 5px;
+}
+
+.btn-group.spaced>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child)
+{
+    margin-left: 5px;
+}
+
+.btn-warning, .btn-success, .btn-danger, .btn-info, .btn-warning:hover, .btn-success:hover, .btn-danger:hover, .btn-info:hover
+{
+    color:#000;
+}
+
+.btn-primary
+{
+    background-color: #e9e4d0; 
+    border-color: #bbbbbb;
+    color: #000;
+    font-weight: normal;
+}
+
+.btn-primary:hover, .btn-primary:active:hover, .btn-primary:visited, .btn-primary:focus
+{
+    background-color: #d0c7a1;
+    color: #000;
+
+}
+
+.table td > button
+{
+    margin-left: 5px;
+}
+
+/* Custom code Application */ 
+.mask
+{
+    color: #4c4c4c;
+    font-weight: normal;
+}
+
+.sub-group-data
+{
+    width: 70%;
+}
+
+.sub-group-data div
+{
+    padding: 8px 0px;
+    border-bottom: solid 1px #ececec;
+    overflow: hidden;
+}
+
+.sub-group-data select.inline
+{
+    width: auto;
+    display: inline-block;
+}
+
+
+small select.form-control
+{
+    width: auto;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+small > .label
+{
+    vertical-align: text-top;
+}
+
+span.input-group.dollar
+{
+    width: 20%;
+}
+
+.form-control.dollar
+{
+    text-align: right;
+}
+
+.input-group-addon
+{
+    padding: 5px 12px;
+}
+
+textarea.form-control
+{
+    min-height: 100px;
+}
+
+.sub-block
+{
+    padding: 10px;
+    background-color: #ececec;
+}
+
+.sub-block .form-inline.label-top
+{
+    margin-top: 0px;
+}
+
+.table
+{
+    margin-bottom: 5px;
+}
+
+.table.auto
+{
+    width: auto;
+}
+
+.table-hover>tbody>tr:hover, .table-hover>tbody>tr.active:hover>td
+{
+    cursor: pointer;
+    background-color: #abddff;
+    color: #000;
+}
+
+.table tfoot tr
+{
+    background-color: #ececec;
+}
+
+table tr, 
+table th
+{
+	border: 1px solid #fff;
+}
+
+table th
+{
+    background-color: #edead9;
+}
+
+table th
+{
+	padding: 2px;	
+}
+
+table td
+{
+	vertical-align: top;
+	font-weight: normal;
+	padding: 5px;
+    font-size: .95em;
+}
+
+.list-group
+{
+    margin-top: 10px;
+}
+
+.list-group-item
+{
+    padding: 5px 10px;
+    
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover, .table>tbody>tr.active>td, .table>tbody>tr.active:hover>td
+{
+    background-color:#185989;
+    color: #fff;
+}
+
+a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover
+{
+    background-color:#cbeaff;
+    color: #000;
+    border: solid 1px #cbeaff;
+}
+
+a.list-group-item
+{
+    text-decoration: none;
+}
+
+/*Alert Styling */
+.text-danger
+{
+    color:#ff0000;
+}
+
+.alert-success
+{
+    color: #274d28;
+}
+
+.alert-info
+{
+    color: #214c62;
+}
+
+.alert-warning
+{
+    color: #000;
+}
+
+.alert-danger
+{
+    color: #000;
+}
+
+/* Footer Styling Below */
+footer
+{
+    background-color: #FFFAF0; 
+    min-height: 50px;
+    color: #000;
+}
+
+footer > .footer-nav > .container > .footer-menu > li > a
+{
+    color: #000;
+    padding: 2px 15px;
+    font-weight: bold;
+    text-decoration: none;
+ 
+}
+
+footer > .footer-nav > .container > .footer-menu > li > a:hover
+{
+    background-color: blue;
+    color:white;
+}
+
+footer .links
+{
+    padding: 3px 0px; 
+}
+
+footer .links a
+{
+    padding: 2px 15px;
+    display: block-inline;
+}
+
+
+
+footer a:hover
+{
+    text-decoration: none;
+}
+
+footer p
+{
+    text-align: center;
+    font-weight: normal;
+    font-size: .875em;
+    padding-bottom: 5px;
+}
+
+.footer-nav
+{
+    background-color: #EEC151;
+}
+
+.footer-sub-nav
+{
+    background-color:#2826D3;
+}
+
+.footer-sub-nav > .links a
+{
+    color: #fff;
+}
+
+footer ul.footer-menu
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    list-style: none;
+}
+
+footer ul.footer-menu > li
+{
+    display: inline-block;
+}
+
+footer ul.nav-pills > li
+{
+    float: none;
+}
+
+footer ul.nav > li + li
+{
+    margin-left: 20px;
+}
+
+footer ul.nav>li>a
+{
+    padding: 0px;
+}
+
+
+footer .nav>li>a:focus, footer .nav>li>a:hover
+{
+    background-color: transparent;
+}
+
+.tooltip-inner
+{
+    text-align: left;
+    padding: 5px;
+}
+
+.tooltip-inner img
+{
+   margin-left: 25%;
+}
+
+.alignMarginRight {
+    margin-right: 40px;
+}

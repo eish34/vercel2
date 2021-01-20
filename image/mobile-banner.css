@@ -1,0 +1,86 @@
+body {margin:0; padding:0;}
+
+/*
+#ndbanner {color:#000000; background-color:#FFFFFF;	border-bottom:1px solid #ccc; position:relative;}
+#ndbanner #ndbanner-inner {margin:0; padding:0; }
+#ndbanner #ndbanner-inner img {border:none; padding:2px 2px 5px 2px; }
+#ndbanner #ndbanner-ndgov { }
+#ndbanner #ndbanner-ndgov a { display:block; }
+#ndbanner #ndbanner-ndgov img {  }
+#ndbanner #ndbanner-commerce {position:absolute; right:0; top:0;}
+
+ collapsing breakpoint 1 - full size images  ----------- 
+@media only screen 
+and (max-width : 540px) {#ndbanner #ndbanner-ndgov img {margin-left:-190px;}
+/* Styles 
+}
+/* collapsing breakpoint 2 - full size images  ----------- 
+@media only screen 
+and (max-width : 350px) {#ndbanner #ndbanner-ndgov img {margin-left:-255px; }
+/* Styles
+}
+/* collapsing breakpoint 2 - full size images  ----------- 
+@media only screen 
+and (max-width : 290px) {#ndbanner #ndbanner-commerce {left:-255px;}
+/* Styles 
+}
+
+
+/****************************
+UNIVERSAL ND BANNER
+*****************************/
+#ndbanner {
+	color: #000000;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+	padding: 3px 0 3px 5px;
+    line-height: 1.42857143;
+}
+
+#ndbanner #itd-logo {
+	background: transparent url('../img/itd-logo-header.png') 0 0 no-repeat;
+	position: absolute;
+	bottom: -23px;
+	height: 23px;
+	width: 68px;
+	right: 10px;
+}
+
+#ndbanner #itd-logo:hover {
+	background-position: 0 -24px;
+}
+
+@media only screen and (max-width :540px) {
+	#ndbanner #ndbanner-ndgov img {
+		margin-left:-197px;
+	}
+}
+
+@media only screen and (max-width :350px) {
+	#ndbanner #ndbanner-ndgov img {
+		margin-left:-257px;
+	}
+}
+
+@media only screen and (max-width :300px) {
+	#ndbanner #ndbanner-commerce {
+		left:-257px;
+	}
+}
+
+#ndbanner #ndbanner-ndgov,
+#ndbanner #ndbanner-commerce {
+	display: inline-block;
+}
+
+#ndbanner #ndbanner-commerce {
+	position: absolute;
+	right: 0;
+	top: 3px;
+}
+
+#ndbanner #ndbanner-commerce img,
+#ndbanner #ndbanner-ndgov img {
+	padding: 0px;
+}

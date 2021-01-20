@@ -1,0 +1,47 @@
+@media (max-width:767px)
+{
+    .app-title 
+    {
+        font-size: 1.35em;
+    }
+    
+    .btn-group
+    {
+        display: block;
+    }
+    
+    header
+    {
+        border-bottom: 5px #bd8210 solid;
+    }
+    button
+    {
+        width: 100%;
+    }
+    
+    .form-inline > .form-group+.form-group, .form-inline.label-top > .form-group+.form-group
+    {
+        margin-left: 0px;
+    }
+    
+    .btn-group.spaced>.btn:last-child:not(:first-child)
+    {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+	.btn-group.spaced .btn 
+	{
+		margin-top: 10px;
+	}
+    
+    input[type=text].md-txt
+    {
+        width: 100%;
+    }
+    
+    .footer-menu li
+    {
+        width: 100%;
+    }
+}
